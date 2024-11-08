@@ -1,0 +1,108 @@
+.cart-container {
+  position: fixed;
+  top: -100%;
+  /* right: 100%; */
+  z-index: 110;
+  background-color: white;
+  padding: 20px;
+  /* max-width: 400px; */
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  transition: top .5s ease-in-out ;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.cart-container.cart-slide{
+  top: 0;
+}
+/* .cart-slide{
+  animation: cartSlide .5s linear forwards;
+}
+@keyframes cartSlide {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+} */
+
+.cart-container h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid black;
+}
+.close-cart{
+  cursor: pointer;
+  position: absolute;
+  font-size: 24px;
+  padding-left: 20px;
+  transition: .2s ease-in-out;
+}
+.close-cart:hover{
+  color: orangered;
+
+}
+.cart-container ul {
+  border: 1px solid #ccc;
+  background-color: whitesmoke;
+  scrollbar-width: none;
+  overflow: scroll;
+  list-style-type:none;
+  width: 100%;
+  padding: 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  height: 50%;
+}
+
+.cart-container li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  list-style: inside;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+.cart-content{
+  text-align: left;
+}
+.cart-item-price{
+  color: rgb(62, 61, 61);
+}
+
+.cart-item-img{
+  transform: rotateY(180deg);
+}
+
+.quantity-manage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.quantity-btn{
+  cursor: pointer;
+  border: none;
+  transition: .3s ease-in-out;
+  padding-top: 5px;
+}
+.quantity-btn:hover{
+  color: orangered;
+}
+
+.cancel-item{
+  font-size: 24px;
+  cursor: pointer;
+  border: none;
+  transition: .3s ease-in-out;
+  padding-top: 5px;
+}
+.cancel-item:hover{
+  color: orangered;
+}
