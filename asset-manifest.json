@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/AuraFeet/static/css/main.50ba22a8.css",
-    "main.js": "/AuraFeet/static/js/main.ae679f9d.js",
-    "static/js/453.26b4dd23.chunk.js": "/AuraFeet/static/js/453.26b4dd23.chunk.js",
+    "main.js": "/AuraFeet/static/js/main.7c6e5a7d.js",
+    "static/js/453.59199dae.chunk.js": "/AuraFeet/static/js/453.59199dae.chunk.js",
     "index.html": "/AuraFeet/index.html",
     "main.50ba22a8.css.map": "/AuraFeet/static/css/main.50ba22a8.css.map",
-    "main.ae679f9d.js.map": "/AuraFeet/static/js/main.ae679f9d.js.map",
-    "453.26b4dd23.chunk.js.map": "/AuraFeet/static/js/453.26b4dd23.chunk.js.map"
+    "main.7c6e5a7d.js.map": "/AuraFeet/static/js/main.7c6e5a7d.js.map",
+    "453.59199dae.chunk.js.map": "/AuraFeet/static/js/453.59199dae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.50ba22a8.css",
-    "static/js/main.ae679f9d.js"
+    "static/js/main.7c6e5a7d.js"
   ]
 }
