@@ -1,6 +1,10 @@
 # AuraFeet 👟✨
 AuraFeet is a modern, stylish, and feature-rich e-commerce platform dedicated to providing an exceptional online shopping experience for footwear enthusiasts. Designed with a sleek interface, smooth animations, and optimized for performance, AuraFeet makes it easy for users to explore, select, and purchase their favorite shoes.
 
+
+https://github.com/user-attachments/assets/72822567-595c-4b27-b220-41d3381ad1db
+
+
 ## Features 
 
 ### 1. Animated Product Slider
@@ -20,38 +24,25 @@ AuraFeet is a modern, stylish, and feature-rich e-commerce platform dedicated to
 
 ## How It Works
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Step 1: Browse the Collection
+* Navigate the Catalog: Start by exploring the shoe collection on the homepage. Products are displayed in a modern, animated slider format for easy browsing.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Step 2: Add Items to Cart
+* Add to Cart: When you find a shoe you love, click the Add to Cart button. You can continue shopping or review your cart at any time.
+* Cart Summary: Access the cart icon to view your selected items, with each item’s price and quantity displayed for review.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Step 3: Review and Edit Cart
+* Manage Cart Items: Adjust the quantity or remove items directly within the cart if needed. The cart will automatically update the total cost.
+* Review Totals: Before proceeding, check the order summary, which displays a breakdown of each item and the total cost.
 
-## Learn More
+Proceed to Checkout: When you’re ready to purchase, click the Checkout button.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Payment and Delivery: Complete the payment details, choose your delivery option, and confirm your order.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technologies Used
+* Frontend: React, Css, JavaScript.
+* Backend: Backend: Node.js and Express for server-side operations and API handling.
+* Database: MongoDB for data management and storage.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+***
+Welcome to AuraFeet – where style meets comfort! Step into a world of premium footwear designed to elevate your look and your lifestyle. Explore, shop, and find your perfect pair today!
